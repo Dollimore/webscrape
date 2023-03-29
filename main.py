@@ -47,4 +47,4 @@ for i in range(1, 7, 1):
     transform(c)
 
 df = pd.DataFrame(joblist)
-#df.to_csv('jobs.csv')
+df.to_csv('jobs.csv')
